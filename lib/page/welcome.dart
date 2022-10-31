@@ -14,8 +14,8 @@ class WelcomePage extends StatefulWidget {
 }
 
 class _WelcomePageState extends State<WelcomePage> {
-  String? name;
-  String? income;
+  String name = 'NaN';
+  String income = '0';
 
   // void initState (){
   //   name = box.write();
